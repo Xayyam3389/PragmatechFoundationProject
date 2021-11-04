@@ -1,0 +1,22 @@
+.banner {
+    background-image: url("background.jpg");
+    padding: 8%;
+    color: aliceblue;
+    text-align: right;  
+    right: 400px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.facebook {
+    color: rgb(4, 5, 0);
+}
+.suretliqeydiyyat {
+    
+position: absolute;
+top: 220px;
+left: 300px;
+font: size 20px;
+text-align: center;
+
+
+}
+
