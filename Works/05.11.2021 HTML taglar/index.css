@@ -1,0 +1,29 @@
+body {
+    background-color:rgba(247, 240, 240, 0.822) }
+
+.shekiller {
+position: absolute;
+left: 250px;}
+
+
+.girish_hisse {
+border: black;size: 100px;
+padding: 60px;color: blanchedalmond;
+position: absolute;
+right: 300px;
+top: 200px;
+
+background-color: white;
+
+}
+
+.bluebook {
+    color: blue; font-size: xx-large;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    position: absolute;
+    right: 280px;
+    top: 450px;
+}
+
