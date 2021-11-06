@@ -1,29 +1,129 @@
 body {
-    background-color:rgba(247, 240, 240, 0.822) }
+    background-color:#f0f2f5
+}
 
 .shekiller {
 position: absolute;
-left: 250px;}
+left:190px;
+top: 47px;
+}
 
 
 .girish_hisse {
+text-align: center;
+align-items: center;
+font-family: inherit;
 border: black;size: 100px;
-padding: 60px;color: blanchedalmond;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+color: blanchedalmond;
 position: absolute;
-right: 300px;
-top: 200px;
-
-background-color: white;
-
-}
+right: 190px;
+top: 100px;
+font-size: 12px;
+font-family: Helvetica, Arial, sans-serif;
+box-sizing: border-box;
+margin: 40px 0 0;
+padding: 20px 0 28px;
+width: 396px;
+background-color: #FFFFFF;}
 
 .bluebook {
-    color: blue; font-size: xx-large;font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1877f2;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    width: 150px;
+    font-size: 45px;
+    font-weight:bold;
+    margin-bottom: 5px;
+    
+}
+
+.resmine_tikla {
+    color: #606770;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: initial;
+    margin-top: 0px;
 }
 
 footer {
     position: absolute;
-    right: 280px;
-    top: 450px;
+    right: 230px;
+    top: 500px;
+    color: #838a8c;
 }
+.creat_account{
+    background-color: #42b72a;
+    border-radius: 6px;
+    border:none;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 16px;
+    display: inline-block;
+    color: #FFFFFD;
+}
+.girish_yap {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    box-sizing: content-box;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    margin-bottom: 4px;
+    color: #FFFFFD;
+    margin-bottom: 20px;
+}
+.shifremi_unutdum {
+    
+    border-radius: 6px;
+    margin-bottom: 8px;
+    display: block;
+    text-align:center;
+    font-family: inherit;
+    color: #1877f2;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 500;
+    margin-bottom: 10px;
+   
+
+}
+.eposta_adresi {
+    width: auto;
+    border-radius: 6px;
+    
+    border: 1px solid #1877f2;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-bottom: 10px;
+    background-color: #E8F0FE;
+}
+
+
+.shifrenizi_daxil{
+    border-radius: 6px;
+    border: 1px solid #1877f2;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-bottom: 10px;
+    background-color: #E8F0FE;
+}
+.yakindaki_girishler {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    margin-bottom: 4px;
+    margin-top: 7px;
+
+}
+
+
 
