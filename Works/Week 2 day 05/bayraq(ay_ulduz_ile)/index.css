@@ -1,0 +1,67 @@
+.bayraq{
+    margin-left: 350px;
+    margin-top: 150px;
+    border-style: none;
+    width: 600px;
+    height: 300px;
+}
+
+.blue{
+    width: 600px;
+    height: 100px;
+    background-color: #00b5e2;
+}
+.red{
+    width: 600px;
+    height: 100px;
+    background-color: #ef3340;
+   
+    
+}
+.green{
+    width: 600px;
+    height: 100px;
+    background-color: #509e2f;
+}
+
+
+
+.ay1{
+    width: 105px;
+    height: 100px;
+    
+    margin-left: 210px;
+    border-radius: 50%;
+    background-color: white;
+    
+    
+}
+.ay2{
+    width: 92px;
+    height: 92px;
+    border-style: none;
+    margin-top: -98px;
+    margin-left: 230px;
+    border-radius: 50%;
+    background-color:#ef3340 ;
+    
+}
+
+.ulduz1{
+    
+    width: 50px;
+    height: 50px;
+    margin-top: -75px;
+    margin-left: 280px;
+    background-color: white;
+}
+.ulduz2{
+    
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: 280px;
+    background-color: white;
+    transform: rotate(50deg);
+  
+}
