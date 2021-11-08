@@ -1,0 +1,75 @@
+.bashliq{
+    background-color: grey;
+   
+    font-family: Helvetica, Arial, sans-serif;;
+    color: #BFBFBF;
+    border-top-width: 10px;
+    padding-top: 10px;padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    
+}
+.yuxari_sol {
+    display: inline;
+    padding: 10 10px;
+    font-weight: bold;
+
+}
+.yuxari_sag{
+    display: inline;
+    position: absolute;
+    right: 100px;
+    font-size: 13px;
+}
+
+.ABOUT{
+    margin-right: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.SERVICES{
+    margin-right: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.INFO{
+    margin-right: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.CONTACT{
+    margin-right: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.FAQ{
+    margin-right: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.section {
+    text-align: center;
+    background-image: url("../page/background.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-top: 100px;
+    padding-bottom: 420px;
+
+    
+
+}
+.Mauris{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 100px;
+    color: #6e6969;
+
+
+}
+.ELEIFEND{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}

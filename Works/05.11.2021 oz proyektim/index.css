@@ -13,7 +13,8 @@ top: 47px;
 text-align: center;
 align-items: center;
 font-family: inherit;
-border: black;size: 100px;
+border: #1877f2;
+size: 100px;
 border-radius: 8px;
 box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 color: blanchedalmond;
@@ -95,14 +96,17 @@ footer {
 .eposta_adresi {
     width: auto;
     border-radius: 6px;
-    
     border: 1px solid #1877f2;
     font-size: 17px;
     padding: 14px 16px;
     width: 330px;
     margin-bottom: 10px;
-    background-color: #E8F0FE;
+    background-color: #ffffff;
+
+    
 }
+
+
 
 
 .shifrenizi_daxil{
@@ -112,8 +116,17 @@ footer {
     padding: 14px 16px;
     width: 330px;
     margin-bottom: 10px;
-    background-color: #E8F0FE;
 }
+.shifrenizi_daxil:hover{
+    background-color: #E8F0FE;
+    border: 1px solid #1877f2;
+   
+}
+
+
+
+
+
 .yakindaki_girishler {
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     color: #1c1e21;
