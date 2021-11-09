@@ -1,0 +1,35 @@
+.bashliq{
+    
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr  1fr 1fr;
+    }
+
+.div{
+    
+    box-shadow: 0 0 15px rgb(7, 5, 5);
+    margin-bottom: 30px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(7, 5, 5);
+}
+
+
+.xayyam{
+    
+    display: grid;
+    grid-column: span 3;
+    grid-row: span 2;
+
+
+}
+.aslan{
+    
+    display: grid;
+    grid-column: span 3;
+    grid-row: span 2;
+    padding: 30px;
+    margin-bottom: -50px;
+}
