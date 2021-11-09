@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;    
+    margin: 0px;
+    width:600px ;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+h1{
+    width: 600px;
+    height: 150px;
+    margin: 0px;
+    display: flex;
+    margin: 0px;
+    
+}
+
+.xayyam{
+    background-color: #00B5E2;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.matlab{
+    background-color: #EF3340;
+}
+.shompul{
+    background-color: #509E2F;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
