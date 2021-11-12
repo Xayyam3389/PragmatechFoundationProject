@@ -1,0 +1,132 @@
+#president{
+    border-style: solid;
+    color: black;
+    margin: 10px;
+    width: 1600px;
+    height: 650px;
+}
+.president-header{
+    border-style: solid;
+    color: darkblue;
+    margin: 10px;
+    width: 1100px;
+    height: 620px;
+    
+}
+
+.president-title{
+    border-style:solid;
+    color: green;
+    margin: 10px;
+    width: 1050;
+    width: 180px;
+
+}
+
+.president-title-logos{
+    border-style: solid;
+    color: darkblue;
+    margin: 10px;
+    width: 1080px;
+    height: 110px;
+    display: flex;
+
+}
+
+.president-title-logos-write{
+border-style: solid;
+color: red;
+margin: 10px;
+width: 700px;
+height: 110px;
+display: flex;
+}
+
+
+.president-title-logos-icons{
+border-style: solid;
+color: blue;
+margin: 10px;
+width: 280px;
+height: 110px;
+}
+
+.president-title-logos-icons ul{
+    display: flex;
+}
+
+.president-title-logos-icons-pv{
+    border-style: solid;
+    color: black;
+    margin: 10px;
+    display: flex;
+
+}
+.president-title-logos-icons-sosial{
+    border-style:solid;
+    color: red;
+    margin: 10px;
+    display: flex;
+}
+
+
+.president-title-nav{
+    border-style: solid;
+    color: royalblue;
+    width: 1080px;
+    height: 50px;
+    display: flex;
+}
+
+.president-title-nav-navbar{
+    border-style: solid;
+    color: black;
+    
+
+}
+
+.president-title-nav-navbar ul{
+    display: flex;
+}
+.president-title-nav-search{
+    border-style: solid;
+    color: black;
+}
+
+.president-section{
+    border-style: solid;
+    color:royalblue;
+}
+.president-section-main{
+    border-style: solid;
+    color: red;
+
+}
+
+.president-section-main img{
+    width: 100%;
+     
+}
+
+
+
+.president-section-assistant{
+    border-style: solid;
+    color: red;
+    width: 350px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
