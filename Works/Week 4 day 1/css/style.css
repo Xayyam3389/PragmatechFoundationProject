@@ -1,0 +1,94 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#learn{
+    background-color:rgba(235,235,242,0.7);
+    font-family: 'Poppins', sans-serif;
+    padding: 150px 0px;   
+}
+
+.learn-container{
+    margin: 0px auto;
+    width: 1200px;
+}
+.learn-container h1{
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+    font-size: 50px;
+}
+
+.learn-container-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    
+}
+.learn-container-content-boxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 300px;
+    height: 290px;
+    padding:30px;
+}
+
+.learn-container-content-boxs i,h4,span{
+    padding: 20px 0px; 
+    font-weight: 40px;
+
+}
+
+.learn-container-content-boxs h4{
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+.learn-container-content-boxs span{
+    font-size: 20px;
+    color: #8f8fa3;
+}
+
+.learn-container-content-boxs i{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-style: none; 
+}
+
+.fas{
+    border:1px solid;
+    color: #00af91;
+    background-color: rgba(0,175,146,0.1);
+}
+
+.fa-user-friends{
+  color: #1089ff;
+  background-color: rgba(16,137,255,0.1);
+   
+}
+.far{ 
+    color:#f15c4c;
+    background-color: rgba(241,92,76,0.1);
+   
+}
+
+
+
+
+
+
+
+    
+    
+    
+   
+
+
+
