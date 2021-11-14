@@ -2,10 +2,11 @@
 body{
     padding: 0px;
     margin: 0px;
-}
-#learn{
     background-color:rgba(235,235,242,0.7);
     font-family: 'Poppins', sans-serif;
+}
+#learn{
+    
     padding: 150px 0px;   
 }
 
