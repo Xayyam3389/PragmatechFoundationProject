@@ -2,12 +2,13 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color:rgba(235,235,242,0.7);
     font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
 }
 #learn{ 
-    padding: 150px 0px;
+    padding: 100px 0px;
     width: 100%;   
+    background-color:rgba(235,235,242,0.7);
 }
 
 .learn-container{
@@ -109,7 +110,7 @@ body{
 }
 
 .simple-container-content{
-    margin-right: 120px;
+    margin-right: 200px;
     
 }
 .simple-container-content h1{
@@ -136,7 +137,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    margin-right: 25px;
+    margin-top: 10px;
     width: 72px;
     height: 72px;
     border-radius: 50%;
