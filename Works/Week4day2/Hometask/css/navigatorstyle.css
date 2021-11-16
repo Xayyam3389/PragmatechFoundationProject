@@ -1,0 +1,69 @@
+/* RESETLEME start*/
+body{
+    margin:0px;
+    
+    
+}
+li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+ul{
+    margin:0px;
+    padding: 0px; 
+}
+/*RESETLEME END*/
+
+
+
+
+
+/*NAVIGATION STYES*/
+body{
+    background-color: black;
+
+}
+#navigation{
+font-family: 'Poppins', sans-serif;
+background-color: white;
+width: 1350px;
+margin: 0px auto;
+margin-top: 100px;
+}
+
+.navigation-container{
+   
+    width: 1200px;
+    height: 100px;
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-container img {
+    
+    width: 100px;
+    height: 50px;
+}
+.navigation-container-nav{
+   
+    display: flex;
+    align-items: center;
+    
+}
+
+.navigation-container-nav ul{
+    border-right: 1px solid gainsboro;
+    margin-right: 15px;
+    display: flex;
+
+}
+.navigation-container-nav ul li{
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+
