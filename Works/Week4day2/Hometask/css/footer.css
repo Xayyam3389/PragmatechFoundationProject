@@ -1,0 +1,71 @@
+/* RESETLEME start*/
+body{
+    margin:0px; 
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+ul{
+    margin:0px;
+    padding: 0px; 
+}
+/*RESETLEME END*/
+
+
+
+
+/*Footer start*/
+
+
+
+.footer-container{
+    
+    width: 1300px;
+    margin: 0px auto;
+    margin-top: 100px;
+    padding: 70px;
+    background-color: #212429;
+    
+
+}
+.footer-container-nav{
+    border-bottom: 1px solid #44474c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+   
+}
+
+.footer-container-nav ul{
+    display: flex;
+  
+}
+
+.footer-container-nav ul li{
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.footer-container-nav-contact h4,span{
+    color:#44474c
+}
+
+
+
+.footer-container-copyrigth{
+    display: flex;
+    justify-content: space-between;
+    color: #44474c;
+    margin-top: 40px;
+    font-size: 12px;
+    
+    
+}
+.footer-container-copyrigth span{
+    margin-right: 30px;
+}
