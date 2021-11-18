@@ -1,0 +1,10 @@
+.section{
+    border: 1px solid black;
+}
+.section-container{
+    width: 1200px;
+    border: 1px solid red;
+    margin: 10px auto;
+    display: flex;
+   align-items: flex-start;
+}
