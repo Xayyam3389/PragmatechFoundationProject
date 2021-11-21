@@ -35,3 +35,16 @@ HTML-da istifadə etdiyimiz elementlər bizim təqlərimizdir. Yazılar üçün 
 ### <!DOCTYPE html> nədir? Nə üçün istifadə edilir?
 Hər bir HTML sənədində tələb olunan və yazılan ilk sətir kodudur. Sənədin tip bəyənnaməsini bildirir. Yəni kodumuzun hansı HTML versiyasında (HTML 5, HTML 4.01, XHTML 1.0  və s.) olduğunu brauzerə məlumat verir və onun düzgün yüklənməsinə və işlənməsinə köməklik görsədir. <!DOCTYPE html> — bəyannaməsi əvvəlki versiyalar ilə müqayisədə ən sadə və qısa olandır.
 Ancaq HTML4-də DOCTYPE bəyannaməsi HTML5-ə nisbətən nisbətən daha uzun və daha ətraflı idi. Bu, bütün HTML elementləri və atributlarını əhatə edirdi.Lakin onunda özünə görə çatışmamazlıqları idi.
+
+### HTML-in köhnə versiyaları ilə HTML5 arasında ən əhəmiyyətli fərqlər nələrdir?
+
+Hiper Text Markup Language -hiper mətin işarətləmə dili mənasına gələn bu proqramlaşdırma dili məzmunun veb səhifəsində necə  işləyəcəyini, görünəcəyini tənzimləyir.HTML5 - CSS, JavaScrip,jQuery kimi bütün texnologiyaların təməl dilidir.Həmçinin HTML-nin ən son versiyasıdır.  Firefox, Chrome, Safari ve Opera kimi bütün brzauzləri dəstəkləyir və normal HTML-dan daha çox özəlliyi var. İphonelara,İpadlara,Androidlərə əvvəlcədən yüklənmiş mobil veb brauzerlərdə HTML5 ilə mükəmməl inteqrasiya olunub.
+Köhnə versiyalar ilə arasındakı fərq, HTML internetdə veb səhifəni  göstərmək üçün istifadə olunan əsas işarətləmə dili olduğu halda HTML5 səhifənin məzmununu və görünüşünü təsvir etmək üçün HTML-nin əsas revizyonudur.
+HTML5-in həm köhnə həm yeni baruzerlər ilə işləmək bacarığı var. 
+HTML5-də daha çox xırdalıqlar,incəliklər var yəni daha ətraflıdır. 
+Ofline yaddaş dəstəyi var.
+HTML5-də yer(location) özəlliyi var.
+
+### CSS-də istifadə olunan inherit və initial ifadələrinin mənasını araşdırın yazın
+
+CSS2 ilə gələn bu özəllikdə biz elementlərimizə inherit dəyərini verə bilirik. Yəni öz ata divinin xassələrini götürür. 
