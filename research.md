@@ -26,18 +26,17 @@ Block elementləri bütün sətiri tutur, və özündın sonrakı elementi yanı
 İnline-block elementi isə elementi isə bütün sətiri tutmur ,lakin elementin ölçü almasına imkan verir və həmin ölçü qədər(width,heigth) yer tutur.
 Elemente inline verdikdı isə o artıq uzunluq və en götürə bilmir. Sıfr orda olan hərf, rəqəm sayı,boyutu qədər məsafə götürür, margin padding ,width,heigth  vermək olmur.
 
-### Semantik veb nə deməkdir izah edin
+### 2. Semantik veb nə deməkdir izah edin
 Semantik veb informasiyanin insanlar və maşın emalı üçün qəbul edilmiş müəyyən sintaksis ilə yazılmasıdır. Misal üçün semantik html-dan danışaq. Qısa şəkildə izah etsəm yazdığımız kodu daha oxunaqlı daha başa düşülən formada yazmaqdan söhbət gedir. Misal üçün bir səhifə götürək. Səhifənin başlıq hissəsini Header təqinin içində yazsaq,menyunu Nav təqi içərisində yazsaq daha düzgün olar.Veb saytın müəyyən hissələrinə müraciət üçün İd vermək(o təkraralanmır) daha məqsədəuyğundur. Əsas hissəni yalnız bir dəfə yazılmaqla  Main təqi içərisində yazırıq və  mətni,məzmunu və s ona istinad etməklə yazmaq lazımdır, Qıraq  yəni yan məlumatları(reklamlar ,bannerlər və s.) Aside təqi içərisində, səhifənin sonunu isə Footer içərisində yazmaq lazımdır. Bununlada koda baxanda hamı tərəfindən həmçinin insanlar, robotexnika ,maşınlar tərəfindəndə  daha oxunaqlı ,daha asan başa düşülən olur. Google ,Yandex  kimi böyük axtarış sistemlərinində xoşuna gəlir. Bu cür kod yazdığımız halda biz daha profesional daha dolğun kod yazmış sayılırıq.
 
-### HTML taq ve attribute arasındakı fərqlər nələrdir?
+### 3. HTML taq ve attribute arasındakı fərqlər nələrdir?
 HTML-da istifadə etdiyimiz elementlər bizim təqlərimizdir. Yazılar üçün h,p,span , şəkillər üçün img, keçidlər üçün a, ikonlar üçün i, qutular üçün div və sairə və sairə belə dəvam edir. Həmin bu elementlərə yəni təqlərin xüsusiyyətləri , xassələri və s isə onların atributlrı sayılır. Misal üçün div təq, classı və ia id isə onun atributu sayılır .İmg təqinə yazdığımız src ,a təqinə yazdığımız title və yaxud style yazıb css özəlliklərini orda versək  yəni onun atributlarını yazmışq oluruq.
 
-### <!DOCTYPE html> nədir? Nə üçün istifadə edilir?
+### 4. <!DOCTYPE html> nədir? Nə üçün istifadə edilir?
 Hər bir HTML sənədində tələb olunan və yazılan ilk sətir kodudur. Sənədin tip bəyənnaməsini bildirir. Yəni kodumuzun hansı HTML versiyasında (HTML 5, HTML 4.01, XHTML 1.0  və s.) olduğunu brauzerə məlumat verir və onun düzgün yüklənməsinə və işlənməsinə köməklik görsədir. <!DOCTYPE html> — bəyannaməsi əvvəlki versiyalar ilə müqayisədə ən sadə və qısa olandır.
 Ancaq HTML4-də DOCTYPE bəyannaməsi HTML5-ə nisbətən nisbətən daha uzun və daha ətraflı idi. Bu, bütün HTML elementləri və atributlarını əhatə edirdi.Lakin onunda özünə görə çatışmamazlıqları idi.
 
-### HTML-in köhnə versiyaları ilə HTML5 arasında ən əhəmiyyətli fərqlər nələrdir?
-
+### 5. HTML-in köhnə versiyaları ilə HTML5 arasında ən əhəmiyyətli fərqlər nələrdir?
 Hiper Text Markup Language -hiper mətin işarətləmə dili mənasına gələn bu proqramlaşdırma dili məzmunun veb səhifəsində necə  işləyəcəyini, görünəcəyini tənzimləyir.HTML5 - CSS, JavaScrip,jQuery kimi bütün texnologiyaların təməl dilidir.Həmçinin HTML-nin ən son versiyasıdır.  Firefox, Chrome, Safari ve Opera kimi bütün brzauzləri dəstəkləyir və normal HTML-dan daha çox özəlliyi var. İphonelara,İpadlara,Androidlərə əvvəlcədən yüklənmiş mobil veb brauzerlərdə HTML5 ilə mükəmməl inteqrasiya olunub.
 Köhnə versiyalar ilə arasındakı fərq, HTML internetdə veb səhifəni  göstərmək üçün istifadə olunan əsas işarətləmə dili olduğu halda HTML5 səhifənin məzmununu və görünüşünü təsvir etmək üçün HTML-nin əsas revizyonudur.
 HTML5-in həm köhnə həm yeni baruzerlər ilə işləmək bacarığı var. 
@@ -45,6 +44,6 @@ HTML5-də daha çox xırdalıqlar,incəliklər var yəni daha ətraflıdır.
 Ofline yaddaş dəstəyi var.
 HTML5-də yer(location) özəlliyi var.
 
-### CSS-də istifadə olunan inherit və initial ifadələrinin mənasını araşdırın yazın
-
-CSS2 ilə gələn bu özəllikdə biz elementlərimizə inherit dəyərini verə bilirik. Yəni öz ata divinin xassələrini götürür. 
+### 6. CSS-də istifadə olunan inherit və initial ifadələrinin mənasını araşdırın yazın
+CSS2 ilə gələn bu özəllikdə biz elementlərimizə inherit dəyərini verə bilirik. Yəni öz ata divinin xassələrini götürür. Bütün elementlərə inherit dəyərini verə bilərik, bu zaman o bir ust elementinin (ata elementinin) özəlliklərini qəbul edəcək.
+İnital dəyəri isə bir elementə verildiyi zaman o bütün xassələrini sıfırlıyacaq və standart formaya düşəcək.Misal üçün hər hansısa bir elementə rəng,ölçü,arxa fon və s vermişiksə ona inital dəyəri verərək bütün xassələrini sıfırlayıb standart CSS tərəfindən verilmiş dəyərlərinə qaytara bilərik.
