@@ -18,3 +18,13 @@ Mənə görə aralarındakı ən böyük fərq responsivlikdir.Grid layoutda dah
 ### display:inline-block,display:flex və display:grid xüsusiyyətlər hansı hallarda istifadə olunmalıdı və səbəbləri nələrdir?
 
 Display:inline-block köhnə versiyadır, yəni bütün sətiri tutan elementin özü qədər yer tutması üçün istifadə olunur.Bu bizim daha çox kod yazmağımıza və dağınıq iş görməyimizə səbəb olurdu.(elementlər arasında məsafələri paddingləri,margiləri vermək üçün) Daha sonra gələn texnologiya display-flex işimizi bir qədərdə asanlaşdırdı. Eyni qutuda olan eyni ölçülü  eyni xüsusiyyətli qutuları flex daxilində yazaraq işimizi asanlaşdırdıq. Ən son keçdiyimiz  texnologiya Grid Layout isə  daha responsiv daha dağınıq olmayaq iş görməyimizə şərait yaradır.Beləki eyni ölçülü olan və ya olmayan qutuları grid ilə sətir və sütun məntiqi ilə yaradıb daha az görünümlü və daha az kod yazaraq responsiv səhifələr hazırlamağımıza şərait yaradır.
+
+
+### 21.11.2021 
+### 1. Display:inline və display:inline-block arasında fərqlər nədir?
+Block elementləri bütün sətiri tutur, və özündın sonrakı elementi yanında yerləşməyə qoymur aşağı atır (p,h,div və s.)
+İnline-block elementi isə elementi isə bütün sətiri tutmur ,lakin elementin ölçü almasına imkan verir və həmin ölçü qədər(width,heigth) yer tutur.
+Elemente inline verdikdı isə o artıq uzunluq və en götürə bilmir. Sıfr orda olan hərf, rəqəm sayı,boyutu qədər məsafə götürür, margin padding ,width,heigth  vermək olmur.
+
+### Semantik veb nə deməkdir izah edin
+Semantik veb informasiyanin insanlar və maşın emalı üçün qəbul edilmiş müəyyən sintaksis ilə yazılmasıdır. Misal üçün semantik html-dan danışaq. Qısa şəkildə izah etsəm yazdığımız kodu daha oxunaqlı daha başa düşülən formada yazmaqdan söhbət gedir. Misal üçün bir səhifə götürək. Səhifənin başlıq hissəsini Header təqinin içində yazsaq,menyunu Nav təqi içərisində yazsaq daha düzgün olar.Veb saytın müəyyən hissələrinə müraciət üçün İd vermək(o təkraralanmır) daha məqsədəuyğundur. Əsas hissəni yalnız bir dəfə yazılmaqla  Main təqi içərisində yazırıq və  mətni,məzmunu və s ona istinad etməklə yazmaq lazımdır, Qıraq  yəni yan məlumatları(reklamlar ,bannerlər və s.) Aside təqi içərisində, səhifənin sonunu isə Footer içərisində yazmaq lazımdır. Bununlada koda baxanda hamı tərəfindən həmçinin insanlar, robotexnika ,maşınlar tərəfindəndə  daha oxunaqlı ,daha asan başa düşülən olur. Google ,Yandex  kimi böyük axtarış sistemlərinində xoşuna gəlir. Bu cür kod yazdığımız halda biz daha profesional daha dolğun kod yazmış sayılırıq.
