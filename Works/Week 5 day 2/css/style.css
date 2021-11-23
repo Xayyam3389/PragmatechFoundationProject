@@ -1,0 +1,47 @@
+/*reset*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*container start*/
+
+#main{
+    border: 1px solid black;
+    
+}
+
+.container{
+width: 1300px;
+margin: 10px auto;
+display: grid;
+gap: 5px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container-item{
+    border: 1px solid green;
+    width: 200px;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.container-item-seller{
+    border: 1px solid black;
+}
+
+.container-item-img{
+    border: 1px solid black;
+
+
+}
+.container-item-img img{
+
+}
+
+.container-item-price{
+    border: 1px solid black;
+}

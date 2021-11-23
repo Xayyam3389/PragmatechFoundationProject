@@ -30,7 +30,7 @@ p{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
     width: 800px;
-    margin-left: 240px;
+    margin: 0px auto;
 }
 .container-item-box{  
     width: 257px;
