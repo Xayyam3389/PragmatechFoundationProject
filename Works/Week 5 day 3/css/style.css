@@ -75,15 +75,14 @@ a{
 }
 
 
-.container-nav-navbar-sub li ul li{
+.container-nav-navbar-sub-ul li{
     display: none;
     margin-left: 150px;
     width: 150px;
-
+    
 }
 
-.container-nav-navbar-sub li:hover  ul li{
+.container-nav-navbar-sub li:hover ul li{
     display: block;
-    
 }
 
