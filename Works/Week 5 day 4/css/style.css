@@ -64,8 +64,7 @@ a{
 }
 
 .container-nav-navbar li:hover>ul{
-    display: block;  
-    
+    display: block;    
 }
 
 .home-sub a{
@@ -82,9 +81,11 @@ a{
     width: 200px;
     background-color: white;
     display: none;
-    bottom: 0px;
+    /* bottom: 0px; */
     left: 30px;
     position: absolute;
+    margin-top: -35px;
+    
 }
 
 
