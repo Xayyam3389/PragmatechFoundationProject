@@ -10,6 +10,8 @@ li{
 a{
     text-decoration: none;
     color: black;
+    padding: 0px;
+    margin: 0px;
 }
 
 /*Reset end*/
@@ -24,33 +26,88 @@ a{
     display: flex;
     align-items: center;
     background-color: #08c;
+    position: relative;
 }
 .container-nav-logo{
     margin-left: 230px;
     margin-top: 10px;
-}
-.container-nav-navbar{
-    
-    
-}
-.container-nav-navbar ul{
-    display: flex;  
+} 
+
+.container-nav-navbar>ul{
+    display: flex;     
 }
 .container-nav-navbar ul li{
     margin-right: 30px;  
+    padding: 10px;
 }
+
+.container-nav-navbar li:hover>a{
+    background-color: white;
+    color:#08c;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
 .container-nav-navbar a{
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 24px;
+    
 }
+.home-sub{
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    display: none ;   
+    padding-left: 10px;
+}
+
+.container-nav-navbar li:hover>ul{
+    display: block;  
+    
+}
+
+.home-sub a{
+    color:#777; 
+    font-weight: 400;      
+}
+.home-sub li{
+    padding: 6px 16px;
+    border-bottom: 1px solid #f7f7f7; 
+}
+
+.home-sub-classic{
+    margin-left: 150px;
+    width: 200px;
+    background-color: white;
+    display: none;
+    bottom: 0px;
+    left: 30px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-background img{
     background-image:url(../image/background.jpg);
     width: 100%;
-    height: 640px;
+    height: 700px;
     object-fit: cover;
-}
-.home-sub{
-    display: flex ;
-    flex-direction: column;
 }

@@ -55,7 +55,7 @@ a{
     position: relative;
     
 }
-.container-nav-navbar li:hover ul{
+.container-nav-navbar li:hover>ul{
     display: block;
     width: 200px;
     background-color: white;  
@@ -75,11 +75,13 @@ a{
 }
 
 
-.container-nav-navbar-sub-ul li{
+.container-nav-navbar-sub-ul{
+    border: 1px solid black;
+    margin-left: 200px;
+    position: absolute;
+    width: 250px;
     display: none;
-    margin-left: 150px;
-    width: 150px;
-    
+
 }
 
 .container-nav-navbar-sub li:hover ul li{
