@@ -1,18 +1,11 @@
 /*Reset start*/
-body{
+body,li,a{
     margin: 0px;
     padding: 0px;
-    
-}
-li{
     list-style-type: none;
-}
-a{
     text-decoration: none;
-    color: black;
-    padding: 0px;
-    margin: 0px;
 }
+
 
 /*Reset end*/
 
@@ -39,14 +32,24 @@ a{
 .container-nav-navbar ul li{
     margin-right: 30px;  
     padding: 10px;
+    color: white;
+}
+.container-nav-navbar a{
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
 }
 
-.container-nav-navbar li:hover>a{
+.container-nav-navbar li:hover{
     background-color: white;
     color:#08c;
     padding: 10px;
     transition: all 0.3s ease;
 }
+.container-nav-navbar li:hover>a{
+color: #777;
+}
+
 
 .container-nav-navbar a{
     color: white;
@@ -58,13 +61,16 @@ a{
     flex-direction: column;
     position: absolute;
     background-color: white;
-    width: 200px;
+    width: 250px;
     display: none ;   
-    padding-left: 10px;
+    padding-left: 0px;
+    margin-left: -10px;
+   
 }
 
 .container-nav-navbar li:hover>ul{
-    display: block;    
+    display: block; 
+     
 }
 
 .home-sub a{
@@ -84,7 +90,7 @@ a{
     /* bottom: 0px; */
     left: 30px;
     position: absolute;
-    margin-top: -35px;
+    margin-top: -36px;
     
 }
 .container-background img{
