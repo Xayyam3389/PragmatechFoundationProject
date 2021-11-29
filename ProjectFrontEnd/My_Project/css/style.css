@@ -1,113 +1,87 @@
-/* Reset start */
-body,ul{
+/* Reser start */
+body,h4,h1,p{
     margin: 0px;
     padding: 0px;
 }
-a{
-    text-decoration: none;
-    color:  #263a5f;
-}
 li{
     list-style-type: none;
-}
-
-/* Reset end */
-
-
-/* Header start */
-header{
-
-font-family: 'Poppins', sans-serif;
-background-color: #263a5f;
-}
-
-.header-container{
-    
-    width: 100%;
-    height: 70px;
-    margin: 0px auto;
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #ffd401;
-    color:#263a5f;
-   
-}
-.header-container-left{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    padding: 0px 40px;
-}
-.header-container-left-logo{
-    width: 70px;
-    height: 70px;
-    margin-right: 5px;
-    margin-bottom: 6px;
-}
-.header-container-left-logo img{
-    width: 100%;
-}
-.header-container-left a{
-    font-weight: 700;
-    font-size: 18px;
-    
-    
-}
-.header-container-rigth{ 
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    padding: 0px 40px;
-}
-.header-container-rigth-lng{
-    margin-right: 10px;
-}
-.header-container-rigth-lng a{
-    margin-right: 10px;
-}
-.header-container-rigth-icon i{
-    border: 1px solid #263a5f;
-    padding: 4px;
-    border-radius: 8px;
-    
-}
-/* Header end */
-
-
-/* nav start */
-nav{
-   background-color:  #263a5f;
-    font-family:'Poppins', sans-serif;
-}
-.nav-container{
-    margin:0px auto;
-    width: 1500px;
-    padding: 10px;
-    
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.navbar ul{
-    display: flex;
-}
-.navbar ul li{
-    margin-right: 30px;
-}
-.navbar ul li a{
     color: white;
 }
-.navbar-rigth{
-    display: none;
-    
+a{
+    text-decoration: none;
+    color: white;
+}
+/* reset end */
+
+
+/* start header */
+#header{
+    background-color: #10153D;
+    color: white;
+}
+.container{
+    width: 1200px;
+    border: 1px solid black;
+    margin:0px auto;
 }
 
-#main{
+nav{
+    border: 1px solid black;
     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-navbar{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+.navbar-list ul{
+    border: 1px solid red;
+    display: flex;
+}
+.navbar-list ul li{
+    margin-right: 35px;
+}
+
+.nav-contact{
+    display: flex;
+}
+.contact{
+    margin-right: 30px;
+}
+
+.card{
+    border: 1px solid black;
+    display: flex;
+}
+.card-left{
+    border: 1px solid black;
+    width: 600px;
+}
+.card-left-top{
+    border: 1px solid red;
+}
+.card-left-top-sign button{
+margin-right: 30px;
+}
+
+.card-left-bottom{
+    border: 1px solid red;
+    display: flex;
+}
+.card-left-bottom-box{
+    border: 1px solid blue;
+    margin-right: 25px;
+}
+.card-rigth{
+    border:1px solid black;
+    margin-left: 5px;
+    width: 600px;
+    
+}
+.card-rigth img{
+    border: 1px solid black;
     width: 100%;
-    height: 1200px;
-    background-image: url(../img/backgorund.jpg);
 }
