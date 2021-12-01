@@ -204,9 +204,6 @@ nav{
 
 /* section-one start */
 
-#section-one{
-    border: 1px solid black;
-}
 .section-one-container{
     width: 1200px;
     margin: 0px auto;
@@ -281,17 +278,120 @@ nav{
 }
 .section-one-container-rigth-item:nth-child(2) i{
     color: #FFFFFF;
+    transition: all 0.5s ease;
 }
 
+.section-one-container-rigth-item:nth-child(2):hover i{
+    color: #5846E0;
+}
+/* section-one end */
 
-/* .fa-unlock-alt{
-    font-size: 50px
+
+/* section-two start */
+
+#section-two{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.section-two-container{
+    
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    
+}
+.section-two-container-left{
+  
+    width: 600px;
+}
+.section-two-container-left img{
+    width: 100%;
+}
+.section-two-container-rigth{
+   
+    width: 600px;
+    padding-left: 70px;
+    
+    
+}
+.section-two-container-rigth-write h2{
+    font-size: 42px;
+    font-weight: 600;
+    padding-top: 70px;
+    margin-bottom: 20px;
+
 }
 
-.fa-sync-alt{
+.section-two-container-rigth-write p{
+    color: #9599BB;
+    margin-bottom: 30px;
+    padding-right: 70px;
+}
+.section-two-container-rigth button{
+    width: 165px;
+    height: 60px;
+    background-color: #5846E0;
+    color: #FFFFFF;
+    font-size: 15px;
+    
+}
+.section-two-container-rigth button:hover {
+    background-color:#FFFFFF ;
+    color:black;
+    transition: all 0.3s ease;
+    border: 2px solid #5846E0;
+}
+
+/* section-two end */
+
+
+/* section-theree start */
+#section-theree{
+    margin-bottom: 100px;
+}
+.section-theree-container{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    
+    
+}
+
+.section-theree-container-rigth{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.section-theree-container-rigth-item{
+    border:2px solid #5846E026;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    text-align:center;
+    transition: all 0.5s ease;
+}
+
+.section-theree-container-rigth-item i{
+    
     font-size: 50px;
+    color: #5846E0;
+    padding-top: 35px;
 }
-.fa-qrcode{
-    font-size: 50px;
-} */
+.section-theree-container-rigth-item:hover{
+    border: 2px solid #5846E0; 
+}
 
+.section-theree-container-rigth-item:nth-child(3){
+    background-color: #5846E0 ;
+    color: #FFFFFF;
+}
+.section-theree-container-rigth-item:nth-child(3) i{
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+.section-theree-container-rigth-item:nth-child(3):hover i{
+    color:#5846E0 ;
+}
+
+/* section-theree end */
