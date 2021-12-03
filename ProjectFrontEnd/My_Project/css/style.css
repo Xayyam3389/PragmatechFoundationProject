@@ -386,7 +386,7 @@ nav{
     
     font-size: 50px;
     color: #5846E0;
-    padding-top: 35px;
+    padding-top: 50px;
     padding-bottom: 10px;
 }
 .section-theree-container-rigth-item:hover{
@@ -478,9 +478,11 @@ nav{
     color: #9599BB;
 }
 .seven-container-item{ 
+    
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    margin-top: 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 25px;
+    margin-bottom: 20px;
     gap: 30px;
 }
 .seven-container-item-box{
@@ -545,10 +547,10 @@ nav{
 }
 .section-eight-container-img img{
     object-fit: cover;
-    height: 435px;
+    height: 500px;
     position: absolute;
-    top: -66px;
-    right: 65px;
+    top: -68px;
+    right: 15px;
 }
 .section-eight-container-write{
     
