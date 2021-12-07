@@ -13,8 +13,15 @@
 // }
 
 
+// 2) 3+(2-true+false)/3&&true complex ifadəsinin nəticəsi nə olacaq və 
+// bunun hansı sıralamalı ilə həllediləcəyi kod yazaraq izah edin
 
+// Soldan sağa oxunur.Əvvləcə mötərizənin içi yəni
+// 2-true+false 2-1+0 yəni 1 edir .  1/3==0.33333 
 
+// 0.3333+ 3 = 3.3333 
+// sonuncu mərhələdə 3.333 && true  neice true qalir ancaq sebebini tamda bsha dusmemisem .
+3+(2-true+false)/3&&true     netice   true
 
 
 
