@@ -3,14 +3,14 @@
 // "Memmed Hesenov sən xoş gəlmisən" formatında yazı çıxarın . Template Literal mövzusu faydalı ola bilər.
 // (Yazılan kodlar ad.js faylında olmalıdır)
 
-// // username=prompt("Adınızı daxil edin: ")
-// // surname=prompt("Soyadınızı daxil edin: ")
-// // if (username=="admin" && surname=="admin"){
-// //     alert("Memmed Hesenov sən xoş gəlmisən")
-// // }
-// // else{
-// //     alert("Zəhmət olmasa düzgün parol daxil edin")
-// // }
+// username=prompt("Adınızı daxil edin: ")
+// surname=prompt("Soyadınızı daxil edin: ")
+// if (username=="admin" && surname=="admin"){
+//     alert("Memmed Hesenov sən xoş gəlmisən")
+// }
+// else{
+//     alert("Zəhmət olmasa düzgün parol daxil edin")
+// }
 
 
 
@@ -105,7 +105,18 @@
         //     }
         
         // 1-1000 arasındakı ədədlərin cəmini hesablayıb ekrana çap edin
-let a=0; let b=0
-while(a<1000){
-    b=b+a
-}
+
+        // b=0
+        // for(let a=0;a<5;a++){
+        //     b=b+a
+        // }
+        // console.log(b)
+        
+
+        // let a=0 
+        // let b=0
+        // while (a<1000){
+        //     b=b+a
+        //     a=a+1
+        //     console.log(b)
+        // }
