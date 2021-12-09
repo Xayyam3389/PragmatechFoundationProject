@@ -10,7 +10,7 @@
 
 
 //  Ders meseleleri
- let nums=[23, 28, 28, 24, 24, 21, 33, 17, 29, 25, 31, 29,2]
+ let nums=[23, 28, 28, 24, 24, 21, 33, 17, 29, 25, 31, 29, 2, 10]
  // Funksiyalar
 function boyukedeler(a,b){
     return a>b
@@ -126,14 +126,20 @@ function cem(a,b=0){
 
 // // 6) en kicik ve en boyuyu goster
 // funksiya ile  meselenin helli
-// let max
+let min=nums[0]
+let max=nums[0]
+for(i=1;i<nums.length;i++){
+    if (nums[i]>max){
+        max=nums[i]
+    }
+    if (nums[i]<min){
+        min=nums[i]
+    }
+    }
+    console.log(`en kicik yas  ${min}-dur, en boyuk yas ise  ${max}-dur `)
 
-// for(i=1;i<nums.length;i++){
-//     if (nums[i]>nums[0]){
-//         max=nums[i]
-//     }
-//     }
-//     console.log(max)
+
+
 
 
 
