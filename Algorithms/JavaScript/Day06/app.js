@@ -126,17 +126,17 @@ function cem(a,b=0){
 
 // // 6) en kicik ve en boyuyu goster
 // funksiya ile  meselenin helli
-let min=nums[0]
-let max=nums[0]
-for(i=1;i<nums.length;i++){
-    if (nums[i]>max){
-        max=nums[i]
-    }
-    if (nums[i]<min){
-        min=nums[i]
-    }
-    }
-    console.log(`en kicik yas  ${min}-dur, en boyuk yas ise  ${max}-dur `)
+// let min=nums[0]
+// let max=nums[0]
+// for(i=1;i<nums.length;i++){
+//     if (nums[i]>max){
+//         max=nums[i]
+//     }
+//     if (nums[i]<min){
+//         min=nums[i]
+//     }
+//     }
+//     console.log(`en kicik yas  ${min}-dur, en boyuk yas ise  ${max}-dur `)
 
 
 
