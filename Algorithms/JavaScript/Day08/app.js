@@ -109,7 +109,10 @@
 
 
 
+
+
 // ### Daxil edilən argumentin tipinə görə fərqli nəticələr verən method yazın
+
 // argument obyektdirsə onun daxilində necə propertisinin olduğunu return etsin
 // argument ədəddirsə neçə rəqəmli ədəd olduğunu return etsin
 // argument stringdirsə o stringin daxilindəki hərflərdən istifadə edərək təsadufi 5 söz istehsal edib , istehsal edilən sözləri array olaraq return etsin
