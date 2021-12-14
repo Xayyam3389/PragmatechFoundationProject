@@ -1,20 +1,17 @@
-// let cumle=[]
-// let daxil_et=prompt("Cumleni daxil edin")
-// cumle.push(daxil_et)
-// console.log(cumle)
-function sait_say(a){
-    let sait_cem=0
-    let cing_cem=0
-    for(let i=0; i<a.length; i++){
-    if(a[i]=="a" || a[i]=="ı" || a[i]=="o" || a[i]=="u" || a[i]=="e" || a[i]=="ə" || a[i]=="i" || a[i]=="ö" || a[i]=="ü" || a[i]=="A" || a[i]=="I" || a[i]=="O" || a[i]=="U" || a[i]=="E" || a[i]=="Ə" || a[i]=="İ" || a[i]=="Ö" || a[i]=="Ü"){
-        sait_cem+=1
-    }
-    }
-    return(sait_cem)
+let a=prompt("cumleni daxil edin")
+let bosarray=[]
+for(let i in a){
+    bosarray.push(a[i])
 }
-let i
-let a=["tyui"]
-for( i in a){
-    console.log(a[i])
+
+let dovr=0
+let tesadufi_herf=[]
+while(dovr<5){
+    let tesadufi_herfler = bosarray[Math.floor(Math.random()*bosarray.length)];
+    tesadufi_herf.push(tesadufi_herfler)
+    dovr++
+
 }
-   
+
+    alert(tesadufi_herf.join(""))
+
