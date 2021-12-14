@@ -1,8 +1,11 @@
 let a=prompt("cumleni daxil edin")
 let bosarray=[]
 for(let i in a){
-    bosarray.push(a[i])
-}
+    if(a[i]!=" "){
+        bosarray.push(a[i])
+    }
+    }
+       
 
 let dovr=0
 let tesadufi_herf=[]
