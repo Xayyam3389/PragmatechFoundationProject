@@ -7,11 +7,12 @@ for(let i in a){
 let dovr=0
 let tesadufi_herf=[]
 while(dovr<5){
+    
     let tesadufi_herfler = bosarray[Math.floor(Math.random()*bosarray.length)];
     tesadufi_herf.push(tesadufi_herfler)
     dovr++
 
-}
+    }
 
-    alert(tesadufi_herf.join(""))
+        alert(tesadufi_herf.join(""))
 
