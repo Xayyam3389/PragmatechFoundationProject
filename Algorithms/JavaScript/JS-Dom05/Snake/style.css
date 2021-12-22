@@ -1,0 +1,15 @@
+.snake{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.3 linear;
+}
+
+.controls{
+    width: 200px;
+    margin: auto;
+    margin-top: 500px;
+}

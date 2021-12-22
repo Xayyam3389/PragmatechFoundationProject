@@ -2,9 +2,9 @@ let second=document.querySelector('.clock_second');
 let minute=document.querySelector('.clock_minute');
 let hour=document.querySelector('.clock_hour');
 let indi=new Date()
-let second_rotate=102+indi.getSeconds()*6
-let minute_rotate=28+indi.getMinutes()*1/10
-let hour_rotate=-30+indi.getHours()*1/120
+let second_rotate=96+indi.getSeconds()*6
+let minute_rotate=0
+let hour_rotate=0
 
 function clock(){
     second.style.transform=`rotate(${second_rotate}deg)`
@@ -19,10 +19,11 @@ setInterval(clock, 1000)
 
 
 
+
 function getdata(){
     let elem=document.querySelector('.inputad')
     let nametxt=elem.value
-    document.querySelector('.outputad').innerHTML=nametxt
+    document.querySelector('.outputad').innerHTML=" " +nametxt
 
 
     let yas=document.querySelector('.left_birth_elemnt:nth-child(3) input')
@@ -33,7 +34,13 @@ function getdata(){
     let ayiniz=yashiniz*12+1*ay.value
     document.querySelector(".ay").innerHTML=ayiniz
 
+
+
 }
 
+
+let saat=new Date()
+let year=saat.getDay()
+console.log(year)
 
 
