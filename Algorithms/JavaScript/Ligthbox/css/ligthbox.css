@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ligthbox{
+   
+   width: 1200px;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 5px;
+}
+
+.ligthbox-item{
+    border: 1px solid black;
+}
+.ligthbox-item img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.modal{
+    border: 1px solid black;
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    display: block;  
+}
+.modal-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.modal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+
+.modal-inner{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ligthbox-hereket{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 98%;
+    align-items: center;
+    top: 50%;
+    padding: 10px;
+    font-size: 3em;
+    color: wheat;
+    
+   
+    
+}
